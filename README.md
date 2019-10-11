@@ -22,11 +22,8 @@ Votre objectif: écrire une API qui puisse être interrogée par les automates p
    pour les modèles d'automates `mk1` et `mk2`.
    Les classes doivent passer les tests unitaires dans `tests/` (executés avec `vendor/bin/phpunit`).
    Ajouter un test `Mk2CalculatorTest::testGetChangeHard`.
-   (25 minutes)
 1. Écrire une classe `CalculatorRegistry` qui implémente `AppBundle\Registry\CalculatorRegistryInterface`.
-   (10 minutes)
 1. Écrire le controlleur en utilisant le service `CalculatorRegistry`. 
    Le controlleur doit passer le test fonctionnel dans `features/change.feature` (executé avec `vendor/bin/behat`).
-   (5 minutes)
 
 Le projet peut être installé avec `make install`. Vous pouvez utiliser les autres actions du fichier `Makefile` pour valider votre solution.
