@@ -2,6 +2,8 @@
 
 ## API de rendu de monnaie pour caisses automatiques
 
+### Demande fonctionelle
+
 On veut écrire un service web qui indique comment rendre la monnaie sur une somme.
 Notre service est interrogé par des automates (par exemple, des caisses automatiques) 
 chaque fois qu’ils ont une somme à rendre, afin de connaître le nombre de billets et pièces à rendre.
@@ -14,9 +16,13 @@ Les modèles supportés actuellement sont :
 - le modèle `mk1`, qui n'a accès qu'aux pièces de 1 ;
 - le modèle `mk2`, qui n’a accès qu’aux billets de 10, billets de 5 et pièces de 2.
 
+### Contrainte technique
+
 On souhaite que notre application puisse être étendue facilement pour supporter d'autres modèles futurs avec des caractéristiques complètement différentes (par exemple, un automate dont le fonctionnement est décrit par une base de données, ou par une API externe...).
 
-Votre objectif: écrire une API qui puisse être interrogée par les automates pour déterminer la monnaie à rendre.
+### Votre objectif
+
+Vous devez écrire une API qui puisse être interrogée par les automates pour déterminer la monnaie à rendre.
 
 1. Écrire deux classes `Mk1Calculator` et `Mk2Calculator` qui implémentent `AppBundle\Calculator\CalculatorInterface` 
    pour les modèles d'automates `mk1` et `mk2`.
@@ -28,12 +34,14 @@ Votre objectif: écrire une API qui puisse être interrogée par les automates p
 
 Le projet peut être installé avec `make install`. Vous pouvez utiliser les autres actions du fichier `Makefile` pour valider votre solution.
 
-Pour réaliser ce test :
- - Créez votre propre copie publique en utilisant celui-ci comme template (bouton "Use this template").
+### Pour réaliser ce test
+
+ - Utilisez ce dépôt git comme template pour créer votre propre copie publique (bouton "Use this template").
  - Mettez à jour votre dépôt avec votre réponse au test dans la branche `master`.
  - Envoyez-nous l'URL de votre dépôt.
 
-Nos points d'attention :
+### Nos points d'attention
+
 - L'exécution des tests : assurez-vous que le projet peut être installé et que les tests tournent.
 - La justesse des algorithmes : le problème est peut-être plus complexe que ce que vous pensez.
 - La lisibilité du code : toujours important pour permettre les revues de code et la maintenance.
