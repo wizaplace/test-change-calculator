@@ -1,4 +1,4 @@
-test: phpcs phpstan phpunit behat
+test: install phpcs phpstan phpunit behat
 
 vendor:
 	composer install

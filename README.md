@@ -27,3 +27,14 @@ Votre objectif: écrire une API qui puisse être interrogée par les automates p
    Le controlleur doit passer le test fonctionnel dans `features/change.feature` (executé avec `vendor/bin/behat`).
 
 Le projet peut être installé avec `make install`. Vous pouvez utiliser les autres actions du fichier `Makefile` pour valider votre solution.
+
+Pour réaliser ce test :
+ - Créez votre propre copie publique en utilisant celui-ci comme template (bouton "Use this template").
+ - Mettez à jour votre dépôt avec votre réponse au test dans la branche `master`.
+ - Envoyez-nous l'URL de votre dépôt.
+
+Nos points d'attention :
+- L'exécution des tests : assurez-vous que le projet peut être installé et que les tests tournent.
+- La justesse des algorithmes : le problème est peut-être plus complexe que ce que vous pensez.
+- La lisibilité du code : toujours important pour permettre les revues de code et la maintenance.
+- La maîtrise de Symfony : il y a de nombreuses manières de répondre aux questions, mais certaines sont meilleures que d'autres.
