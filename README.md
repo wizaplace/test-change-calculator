@@ -32,13 +32,20 @@ Vous devez écrire une API qui puisse être interrogée par les automates pour d
 1. Écrire le controlleur en utilisant le service `CalculatorRegistry`. 
    Le controlleur doit passer le test fonctionnel dans `features/change.feature` (executé avec `vendor/bin/behat`).
 
-Le projet peut être installé avec `make install`. Vous pouvez utiliser les autres actions du fichier `Makefile` pour valider votre solution.
 
 ### Pour réaliser ce test
 
- - Utilisez ce dépôt git comme template pour créer votre propre copie publique (bouton "Use this template").
- - Mettez à jour votre dépôt avec votre réponse au test dans la branche `master`.
- - Envoyez-nous l'URL de votre dépôt.
+Vous aurez besoin d'avoir _Docker_ et _Git_ installés sur votre machine.
+
+* Utilisez ce dépôt git comme template pour créer votre propre copie publique (bouton "Use this template").
+* Clonez votre dépôt git en local.
+* A la racine du projet, copiez le fichier _.env.dist_ vers _.env_. Si besoin, remplacez les valeurs par défaut dans ce dernier.
+* Le projet peut être installé avec `make install`. 
+* Vous pouvez utiliser les autres actions du fichier `Makefile` pour valider votre solution.
+
+Quand vous avez terminé :
+* Mettez à jour votre dépôt avec votre réponse au test dans la branche `master`.
+* Envoyez-nous l'URL de votre dépôt.
 
 ### Nos points d'attention
 
