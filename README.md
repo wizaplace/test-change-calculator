@@ -40,7 +40,8 @@ Vous aurez besoin d'avoir _Docker_ et _Git_ installés sur votre machine.
 * Utilisez ce dépôt git comme template pour créer votre propre copie publique (bouton "Use this template").
 * Clonez votre dépôt git en local.
 * A la racine du projet, copiez le fichier _.env.dist_ vers _.env_. Si besoin, remplacez les valeurs par défaut dans ce dernier.
-* Le projet peut être installé avec `make install`. 
+* Le projet peut être installé avec `make install`.
+* Vous n'avez pas besoin d'installer de librairies et dépendances supplémentaires.
 * Vous pouvez utiliser les autres actions du fichier `Makefile` pour valider votre solution.
 
 Quand vous avez terminé :
@@ -51,5 +52,6 @@ Quand vous avez terminé :
 
 - L'exécution des tests : assurez-vous que le projet peut être installé et que les tests tournent.
 - La justesse des algorithmes : le problème est peut-être plus complexe que ce que vous pensez.
+- La couverture : vos tests doivent couvrir au mieux les différents cas de figure.
 - La lisibilité du code : toujours important pour permettre les revues de code et la maintenance.
 - La maîtrise de Symfony : il y a de nombreuses manières de répondre aux questions, mais certaines sont meilleures que d'autres.
