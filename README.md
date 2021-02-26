@@ -35,7 +35,7 @@ Vous devez écrire une API qui puisse être interrogée par les automates pour d
 
 ### Pour réaliser ce test
 
-Vous aurez besoin d'avoir _Docker_ et _Git_ installés sur votre machine.
+Vous aurez besoin d'avoir _Git_ installé sur votre machine. Dans l'idéal, vous aurez aussi besoin de _Docker_ pour utiliser plus facilement le projet. Mais c'est optionnel.
 
 * Utilisez ce dépôt git comme template pour créer votre propre copie publique (bouton "Use this template").
 * Clonez votre dépôt git en local.
