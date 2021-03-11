@@ -46,7 +46,7 @@ Vous aurez besoin d'avoir _Git_ installé sur votre machine. Dans l'idéal, vous
 
 Quand vous avez terminé :
 * Mettez à jour votre dépôt avec votre réponse au test dans la branche `master`.
-* Envoyez-nous l'URL de votre dépôt.
+* Envoyez-nous l'URL de votre dépôt. Pour des raisons de lisibilité, nous vous invitons à squash les commits de votre travail en un seul.
 
 ### Nos points d'attention
 
